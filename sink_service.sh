@@ -1,2 +1,3 @@
-nvm use 20
-npm start -- GtDZKAqvMZMnti46ZewMiXCa4oXF4bZxwQPoKzXPFxZn 3JBZcr6qTFCgzZNzvi7shWGKDCgVnqC7azLUcU3spSR4S7ABqwXc3KAxRamaEBjkeX66xZDsKjo1boQwJBrAA755 ~/pooh/substreams-sink-service/whitelist.txt
+# nvm use 20
+rm cursor.lock
+npm start -- H6wqd7GzxPzF53kiAG8JhpkSrEuQNPnU7cWr9GdduMQH 3JBZcr6qTFCgzZNzvi7shWGKDCgVnqC7azLUcU3spSR4S7ABqwXc3KAxRamaEBjkeX66xZDsKjo1boQwJBrAA755 ~/pooh/substreams-sink-service/whitelist.txt

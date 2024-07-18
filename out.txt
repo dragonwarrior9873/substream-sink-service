@@ -1,0 +1,95 @@
+
+> substreams-sink-template@0.0.1 start
+> tsc && node ./dist/bin/cli.js run GtDZKAqvMZMnti46ZewMiXCa4oXF4bZxwQPoKzXPFxZn 3JBZcr6qTFCgzZNzvi7shWGKDCgVnqC7azLUcU3spSR4S7ABqwXc3KAxRamaEBjkeX66xZDsKjo1boQwJBrAA755 /root/pooh/substreams-sink-service/whitelist.txt
+
+-- arguments -- => GtDZKAqvMZMnti46ZewMiXCa4oXF4bZxwQPoKzXPFxZn,3JBZcr6qTFCgzZNzvi7shWGKDCgVnqC7azLUcU3spSR4S7ABqwXc3KAxRamaEBjkeX66xZDsKjo1boQwJBrAA755,/root/pooh/substreams-sink-service/whitelist.txt
+Set created: Set(49) {
+  'DSvRjLx7E84dLhb7EfVRFi1hBBDNrSBZeAWRemf4WR64',
+  'ArSMMMq4sWWyRnWLZhoRxUJtjZRFEgY3Czp9mYPcAPpU',
+  '2AfSwhh4BWZ29nAmyP2hqpRrzhiVbYRCRXdUh6LoxzmA',
+  '3VZsF2KMvQWvbDmL5pEguzYJUb6imghucrN3wRQD1efS',
+  '7vj7M9K2vWUZP5A4oRj3HXhARtPmEt65sJQwiQcL4LF4',
+  'BvGw4Mg4LoAgXySEzTdHCkSEaHWDybAWvNgeBEqR7CK3',
+  '5Srxkn8q1mSt9Hv7S6SR64vKe5pgLiMkEiwfBZwgZehA',
+  '54NyjW3vToaBqfKnTC9pqGQ2bRMXBxGoEFqCnkWher7s',
+  '7enmiYqdWyu9sJFSXNvxGbynvEb5inc4TfvpEYDDZfEm',
+  'BMq6DDyWHwtdahXqUmzsL7AReZmPBNgEgwCaknZBAh9',
+  '2U74355EpWAob6KDU9QmPmH8KjFNJA7ee3T2LvCmN2FG',
+  '8tM2rejEpMFaqkMgXmsD8pv3jBvg7S49ZLdexFgjqYzR',
+  '9X8xJGe99MC7LfTVpxsmiKcsnAKXLtwjDQXJSunj9Xsu',
+  'G4TxDfXMNNinVq7Khevh3R9CbuWicSAaRWaDg2dd8vUi',
+  '29QLgzaaTkp7Bp4Qm4krTgBM88fN6cWfr1Yj23tc22Mc',
+  '3B72BpXjwcxfk7tENaqwbwBSd2drTbZLN1aAaLBUwWoq',
+  'C1g9jBJ79u81vwRBUujgWeyz9MJKApMr16XhEXLhXmvE',
+  'HsXBKLiQqjC5uiriLQo5TA2wjEJhzeN6NqeYQUVmnBtP',
+  '7XedMQTFamL5RyJjWTS5LPdMLFP6dpya9rV3mnMQjVWY',
+  'GCJLP17FbJHzq7NouLo1QdqTMW27UCm9CzNX7GxWmDRy',
+  '5S9Mq72mhx9Vm6qJs3rBi4tzUoMg4JjckkokQ3HDy3ge',
+  'J8ipNdxYY8Y8p27fhS93sEmDJruyiQ1CTRDb3AHtRKJe',
+  '3ow7gwuNrFn4aeLKXsZjoHU7xiHAis2yhPAnBN2NL76v',
+  'FojDzzUbjpxvqXEGeDk7m48B2HKo2txRstvveioBBiHb',
+  '8gG8ruaCu3czLjNkWspS5ifpmsRrEh7Mhu4PULkZQuk',
+  'AinhBGffb3ZSoZrpKnCTFsGmz7kaFDqsc6xfyoiLy9U4',
+  'ER6AHphWXozu2WfiEpA3LfYiTkQrppUq4rqsQMDgjTng',
+  'E3QPRcTuReujFgNwuLF2FaqGsaqhQG1fDHFKj6mw9Mot',
+  'idNToGUY1pWGT7G1khoHw4WLrfVTs3TP8GAbK6R2YfK',
+  'FYDVJF8VN2gA6qRoLKpsjviqq8wce3Vnfsvq5uQpJS9A',
+  '7Wopuy8swYAPZmgpBRb5bi6VSks3c1gbWLqWroBpbSv',
+  '8HU4knUemU6R1mnv9nBvMvNETTLCieRiGtSVCKZS2U8P',
+  '46BWJaPJ9iMpq7xot5y2yyeu46dgVLQkEgswzwuim1eJ',
+  '9FZTKTHX9eNrFpCXSEFYrbeTrNc23M7L8py32zKuHDBS',
+  'FqvzfG72zLwGpPRz1cB9Jif33yvYf4eHeukGaA6msWW9',
+  'xE1HVXNpECjSsrXH2jTdSPtihWMLXoJm3FMrhQkvRxw',
+  '675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8',
+  '5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1',
+  '4ghGfM8JUos3qRLbcfUmBwFccSBsHkofFA99bWePoNqm',
+  '79P9T9ojgMPCqGKqB56db9Tcjo9NqkP1HRXmYgJhdqWp',
+  '2Djsq49Z9RfQ7k57LDQfaExHnkTtJXuPgKQmEMpaFwuL',
+  'srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX',
+  '6sAd5D8zxBE8zscse2MSMRd2LxGTLNVwp6vGknP3u5dx',
+  '24DDcc1saW3eapfQAaxgkJF7YPieKGRd2kjCEPK6VF3H',
+  'EhHZiYmxx9UQhhFyQNfzjtJ49X7Z1UYhGoiginKmr2L3',
+  '3bazih2x9fjTj1EzsQySXcC3Ja9W4YS3k2Jqkk48PRWa',
+  '9wV155i1DhaBy87vnoze8puXFCTJyPBXXcjf5FoeF4XV',
+  'CBznfEYe8swdPgnvddyBh2sDKPtsvKdecsimvYBWWbwR',
+  'H2b6FTSgNhHz7br5qYfjZu2vcirVieXtjTJWRBugo4tk'
+}
+[37m2024-07-17 23:27:30.285[39m[0m[0m	[34m[1mINFO[22m[39m[0m[0m	[37m/node_modules/substreams-sink/dist/src/prometheus.js:93[39m[0m[0m[1m[37m	substreams-sink-template[39m[22m[0m[0m	manifest {
+  moduleHash: [32m'c236a77c2680cb30f6c155d3b00e3493b6f5f561'[39m,
+  manifest: [32m'/root/pooh/dextrades/substreams.yaml'[39m,
+  substreamsEndpoint: [32m'https://mainnet.sol.streamingfast.io:443'[39m,
+  finalBlocksOnly: [32m'false'[39m,
+  productionMode: [32m'false'[39m
+}
+[37m2024-07-17 23:27:30.293[39m[0m[0m	[34m[1mINFO[22m[39m[0m[0m	[37m/node_modules/substreams-sink/dist/src/http.js:20[39m[0m[0m[1m[37m	substreams-sink-template[39m[22m[0m[0m	prometheus server {
+  hostname: [32m'localhost'[39m,
+  port: [33m9102[39m
+}
+[37m2024-07-17 23:27:30.522[39m[0m[0m	[34m[1mINFO[22m[39m[0m[0m	[37m/node_modules/substreams-sink/dist/src/prometheus.js:82[39m[0m[0m[1m[37m	substreams-sink-template[39m[22m[0m[0m	session {
+  traceId: [32m'212c5d992317347957f09bd8b0c514fb'[39m,
+  resolvedStartBlock: [32m'278137027'[39m,
+  linearHandoffBlock: [32m'278137027'[39m,
+  maxParallelWorkers: [32m'10'[39m
+}
+addr: G8T5w5XBZVcJMz93sLxCtQEAKKa6C3CLVsnAYKq7yVJS  0.4928728863596916 -0.0000900229997569113
+addr: DCAK36VfExkPdAkYUQg6ewgxyinvcEyPLyHjRbmveKFw  4237.498537894338 -0.7738739030000943
+addr: 2PBRmZuPxeLAAmyHLCLQgikB5HGP1Y7mLzg6KpNNVJ16  418715.4785459414 -75.44257407600071
+addr: GuiU6MpLahPHSHYcsfSRjwLUm1AtZ9zP2eiLAkJMBjg  34676.877381182974 -6.259533101000017
+addr: BEmUSjqs7mpgaSXw6QdrePfTsD8aQHbdtnqUxa63La6E  -1.9826773359999947 11041.438814925961
+addr: FreyaXYaCwVy86BdNECd7BXnqEvFUbt3p6d2B5eS5zDv  645.8095825930068 -18.238247
+addr: 2NUL41xrqTws57SUcJgkEtcaAesMcgPrKdJcFFazFyV8  2587.772980300011 -0.46427391299999954
+addr: 8RPyoMm3b6utTxTWsSU7We7PtZvtpZ6bgVM9kUU1se14  -413.7945999999938 594.6452535130011
+addr: APEwx8mjv9B4VYgZAiWsTx7jM6NxeHkTYzF8kh9uRfws  -0.008837285000000028 48.93367727800069
+addr: CYgf4fQ9FQK1pygDfRxkrsLhXp6zzBfSE7cpNZ1GyePQ  -30476941.350898743 121.39336041600473
+addr: 6jvYtr9G5WQnKs3cFsFtKmEfkbEnUXFhBKsmZad26QPV  -0.20914113399999223 1167.4093504352495
+addr: 4WC64RFNRuVdCRGwEFrRLhgbgZkGGMLPhHEZS1nQ5jPN  -69.24873799999477 99.51418741099769
+addr: JED9gEbMzhAsKHt65DjrDJ3epWCnoDiZPyn3YhQkqC38  27462.538827162236 -4.901012684000307
+addr: 8ud34byCVSK4AFutfvq6WWRzsJGCf4You3m9adL88x8D  21699.617044325918 -3.873546757999975
+addr: s1owYSQoe8ADk1LNneqKU6BrVt5PHvrwmXyjuAaZBYZ  1053.9744162639836 -0.18909418599997707
+addr: idea1kYJnzQ1cLJD6FRU3mRbUDJxPoYRWDuHTzhY2Ns  -0.40525499999989734 31.5612195720023
+addr: HyNY5o5ndmbobEpqcvx1vgsX25uiZZmKTRz4y7qHakMH  -8.465298000000075 12.158933294000008
+addr: GdyCzQvrQ9VMsnbmy5fPMKCX32hQQNMQgtfye6FdDEFy  -0.19189200000005258 14.953080331993988
+addr: 4dbxGAa1z7L8g93Fa62KVCneUNbdQUtVJwjVhVMc2XXY  34251.53318528086 -6.129198660999464
+addr: GYd6iQRL4jDRR5WVaAdANpR69xcpTH3mmb3N8dWGygbo  -0.061559275999997 343.7181373508647
+addr: GdyCzQvrQ9VMsnbmy5fPMKCX32hQQNMQgtfye6FdDEFy  -1.9454180000175256 14.960375949041918
+addr: DCAK36VfExkPdAkYUQg6ewgxyinvcEyPLyHjRbmveKFw  4237.498537895968 -0.7587844390000029

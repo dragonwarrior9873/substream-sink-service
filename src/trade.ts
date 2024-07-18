@@ -155,11 +155,11 @@ export async function handle_block(message: any) {
     let t1 = performance.now()
     if (message.data) {
       message.data.forEach((tx: TradeData) => {
-        if ((tx.baseMint == TOKEN_MINT_ADDRESS && tx.baseAmount > 0) ||
-          (tx.quoteMint == TOKEN_MINT_ADDRESS && tx.quoteAmount > 0)) {
+        if ((tx.baseMint == TOKEN_MINT_ADDRESS && tx.baseAmount < 0) ||
+          (tx.quoteMint == TOKEN_MINT_ADDRESS && tx.quoteAmount < 0)) {
           if (!whitelist.has(tx.signer))
-            // freezeOrThaw(true, tx.signer)
-            console.log("addr: " + tx.signer + "  " + tx.baseAmount + " " + tx.quoteAmount)
+            freezeOrThaw(true, tx.signer)
+            console.log("signer: " + tx.signer + "  baseMint: " + tx.baseMint + " quoteMint: " + tx.quoteMint + "  baseAmount:  " + tx.baseAmount + "  quoteAmount " + tx.quoteAmount)
         }
       });
     }
@@ -168,8 +168,8 @@ export async function handle_block(message: any) {
     // print log
     let unix_timestamp = message?.data[0].blockTime;
     var date = new Date(unix_timestamp * 1000 + 9 * 3600000);
-    console.log('handle_block :>> ', message?.data[0].blockSlot, message?.data[0].blockTime, '  ',
-      date.toISOString().replace(/[T]/g, ' ').substring(0, 19), '  ', (t2 - t1).toFixed(2), ' ms');
+    // console.log('handle_block :>> ', message?.data[0].blockSlot, message?.data[0].blockTime, '  ',
+      // date.toISOString().replace(/[T]/g, ' ').substring(0, 19), '  ', (t2 - t1).toFixed(2), ' ms');
   } catch (error) {
     console.error('error :>> ', error);
   }
